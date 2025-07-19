@@ -1,3 +1,16 @@
+# About Project
+Price Optimization Tool was the Problem Statement given by BCG-X in their assignment round for the role of SDE, which particularly deals with building a Full-Stack CRUD Application using ReactJS and Django, which should include added custumizations and visuals displaying a Graph/Chart which determines the fluctuating prices of the products across time.
+
+The project also includes an Admin Page which can be used to configure the users and their respective permissions.
+This project also contains a Login/Register page which can register a user and that particular user can login using their Email and Password.
+After signing in, two particular pages appear which are:
+- 1. Create and Manage Products, and
+- 2. Pricing Optimization
+
+
+- A Master/Admin user will have access to both views
+- A normal user can have access to the Pricing Optimization Page
+
 # Project Setup Guide
 
 This guide provides step-by-step instructions to set up and run the backend (Django) and frontend (React with Ant Design) for the project. Follow the steps below to get the project up and running on your local machine.
