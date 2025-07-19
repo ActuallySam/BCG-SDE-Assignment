@@ -1,0 +1,28 @@
+.custom-modal {
+    background-color: black !important;
+    color: white !important;
+}
+
+.custom-modal .ant-modal-header {
+    background-color: black !important;
+    color: white !important;
+}
+
+.custom-modal .ant-modal-content {
+    background-color: black !important;
+    color: white !important;
+}
+
+.ant-modal-body,
+.ant-modal-header,
+.ant-modal-footer {
+    color: white !important;
+}
+
+/* Set form labels to white */
+.custom-modal > .ant-modal-content > .ant-modal-header > .ant-modal-title > .ant-divider-horizontal,
+.ant-form-item-label,
+.ant-modal-close-icon,
+.ant-form-item-required {
+    color: white !important;
+}

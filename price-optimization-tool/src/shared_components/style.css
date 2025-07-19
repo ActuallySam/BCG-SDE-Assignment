@@ -1,0 +1,83 @@
+/* Table Header Styling */
+.custom-table .ant-table-thead>tr>th {
+    background-color: #000;
+    /* Black background for header row */
+    color: #fff;
+    /* White text color */
+    font-weight: bold;
+    border-color: #ddd;
+    /* Border color for header */
+}
+
+/* Table Body Rows Styling */
+.custom-table .ant-table-tbody>tr>td {
+    background-color: #fff;
+    /* White background for record rows */
+    color: #000;
+    /* Black text color */
+    border-color: #ddd;
+    /* Border color for rows */
+}
+
+/* Row Hover Effect */
+.custom-table .ant-table-tbody>tr:hover>td {
+    background-color: #f5f5f5;
+    /* Light gray on hover for rows */
+    color: #000;
+    /* Maintain black text color */
+}
+
+.custom-modal {
+    background-color: black !important;
+    color: white !important;
+}
+
+.custom-modal .ant-modal-header {
+    background-color: black !important;
+    color: white !important;
+}
+
+.custom-modal .ant-modal-content {
+    background-color: black !important;
+    color: white !important;
+}
+
+.ant-modal-body,
+.ant-modal-header,
+.ant-modal-footer {
+    color: white !important;
+}
+
+/* Set form labels to white */
+.custom-modal > .ant-modal-content > .ant-modal-header > .ant-modal-title > .ant-divider-horizontal,
+.ant-form-item-label,
+.ant-modal-close-icon,
+.ant-form-item-required {
+    color: white !important;
+}
+
+.ant-btn[disabled] {
+    background-color: #66DCB9 !important;
+    border-color: #66DCB9 !important;
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+.ant-switch {
+    border-color: #66DCB9 !important;
+}
+  
+.ant-switch-checked {
+    background-color: #66DCB9 !important;
+    border-color: #66DCB9 !important;
+}
+
+.ant-select-selector, .ant-select-open {
+    background-color: #172d29 !important;
+    border-color: #66DCB9 !important;
+    color: #FFFFFF !important;
+}
+
+.demand-forecast-column {
+    background-color: #66DCB9 !important;
+}
